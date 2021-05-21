@@ -39,9 +39,42 @@ body {
     height: max-content;
     padding: 20px;
     text-align: center;
+    
+}
+
+#connect {
+    background-color: #4267b2;
+    width: 320px;
+    height: 40px;
+    color: #ffffff;
+    font-size: medium;
+}
+
+#account-creation {
+    background-color: #45b434;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+}
+
+#noPassword {
+    padding: 20px;
+    text-decoration: none;
 }
 
 .box2 {
     width: 600px;
     margin-left: 100px;
+}
+
+input, button {
+    margin: 5px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border-color: #ebf3f3;
 }
