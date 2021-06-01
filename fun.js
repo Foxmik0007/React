@@ -15,5 +15,10 @@
 const elts = document.getElementById('Contenaire');
     
     //Recherche à partir de l'element principal
-    //Retourne les elements box
-    elts.children;
+    //Retourne les enfants de cet elements
+elts.children;
+    
+// Retourne element parent
+elts.parentElement;
+
+//Permet de naviguer vers l'element suivant/precedent
